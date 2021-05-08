@@ -9,3 +9,5 @@ num_pages = pdf_reader.numPages
 
 play = pyttsx3.init()
 print('Playing Audio Book')
+
+for num in range(0, num_pages):
