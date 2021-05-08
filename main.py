@@ -11,3 +11,5 @@ play = pyttsx3.init()
 print('Playing Audio Book')
 
 for num in range(0, num_pages):
+    page = pdf_reader.getPage(num)
+    
